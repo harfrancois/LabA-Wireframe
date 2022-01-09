@@ -15,19 +15,42 @@
 </nav>
 
 <body>
-
+  <form id="form">
+    <fieldset>
+      <legend>Add a Store</legend>
+      <label>
+        Store Name
+        <input type="text" id="storeName" name="store" placeholder="Name">
+      </label>
+      <label>
+        Minimum cookies sold.
+        <input type="number" step=0.01 id="min" name="minimum" placeholder="Min">
+      </label>
+      <label>
+        Maximum cookies sold.
+        <input type="number" step=0.01 id="max" name="maximum" placeholder="Max">
+      </label>
+      <label>
+        Average cookies sold.
+        <input type="number" step=0.01 id="avg" name="average" placeholder="Avg">
+      </label>
+    </fieldset>
+    <button type="submit">Submit</button>
+  </form>
   <div>
-    <h2>Store Sales</h2>
     <table id="sales">
       <thead>
         <tr id="theadData"></tr>
       </thead>
       <tbody>
-        
+
       </tbody>
     </table>
   </div>
-  <script src="js/sales.js" text="text/javascript"></script>
+  <script src="js/sales.js"></script>
 </body>
+<footer>
+  
+</footer>
 
 </html>

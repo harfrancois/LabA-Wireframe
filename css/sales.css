@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: darkgray;
+  
+  
+}
+
+nav {
+  margin: 1px auto;
+  width: 960px;
+
+  
+}
+
+fieldset {
+  background-color: darkgray;
+  
+}
+fieldset label {
+  display: inline;
+}
+
+div{
+  
+}
+
+body {
+  background-color: darkgray;
+}
+
+
+
+footer {
+  background-color: gray;
+  height: 50px;
+  text-align: center
+}
+

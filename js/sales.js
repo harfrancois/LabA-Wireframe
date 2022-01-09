@@ -64,6 +64,26 @@ function Store(name, min, max, avg) {
   storeArray.push(this);
 }
 
+const cookieForm = document.getElementById('form');
+
+function submitStore(event){
+  event.preventDefault();
+  let storeName = event.target.store.value;
+  let minimum = +event.target.minimum.value;
+  let maximum = +event.target.maximum.value;
+  let average = +event.target.average.value;
+  let newStore = new Store(
+    storeName,
+    minimum,
+    maximum,
+    average
+  );
+  newStore.render();
+}
+
+
+cookieForm.addEventListener('submit',submitStore);
+
 let seattleStore = new Store('Seattle', '23', '65', '6.3');
 seattleStore.render();
 
