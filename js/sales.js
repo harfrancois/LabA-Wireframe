@@ -64,6 +64,7 @@ function Store(name, min, max, avg) {
   storeArray.push(this);
 }
 
+
 const cookieForm = document.getElementById('form');
 
 function submitStore(event){
@@ -79,7 +80,11 @@ function submitStore(event){
     average
   );
   newStore.render();
+  let oldTFoot = document.querySelector('tfoot');
+  oldTFoot.remove();
+  createTFoot();
 }
+
 
 
 cookieForm.addEventListener('submit',submitStore);
