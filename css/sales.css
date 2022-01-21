@@ -1,41 +1,89 @@
 * {
   box-sizing: border-box;
+  
 }
-
+body {
+  background-color: salmon;
+}
 header {
   background-color: darkgray;
   
   
 }
-
+h1 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-size: 5rem;
+  font-family: 'Amatic SC', cursive;
+  color: coral;
+}
 nav {
-  margin: 1px auto;
-  width: 960px;
-
+  margin-left: 1rem;
+  width: 110rem;
   
 }
 
-fieldset {
-  background-color: darkgray;
+nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: serif;
+  color: lightslategrey;
   
+}
+a:hover { 
+  color: blueviolet;
+}
+form {
+  background-color: darkgray;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  color: darkslategrey;
+}
+fieldset {
+  
+  margin: 3rem;
+}
+legend {
+  margin-bottom: 1rem;
 }
 fieldset label {
   display: inline;
+  
+}
+#submit {
+  margin-left: 3rem;
+}
+div{
+  max-width: 110rem;
+  max-height: 50rem;
+
+}
+table{
+  max-width: 110rem;
+  max-height: 50rem;
+  margin: 5rem;
+  padding: 5rem;
+  border: 0.1rem solid black
+  
+}
+#sales {
+  background-color: rgba(233, 150, 122, 0.934);
+  font-family: sans-serif;
+  color: darkslategrey;
 }
 
-div{
+thead {
+  border: 0.1rem solid black
   
 }
 
+tbody {
+  border: 0.1rem solid black
+}
+tr {
+  border: 0.1rem solid black
+}
 body {
-  background-color: darkgray;
+  background-color: rgb(227, 213, 213);
 }
-
-
-
-footer {
-  background-color: gray;
-  height: 50px;
-  text-align: center
-}
-
